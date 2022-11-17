@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: hellow-world-ing
+  namespace: rancher-demo
 spec:
   rules:
     - http:
