@@ -23,7 +23,7 @@ spec:
             protocol: TCP
           env:
             - name: COW_COLOR
-              value: red
+              value: Blue
           readinessProbe:
             httpGet:
               port: web
